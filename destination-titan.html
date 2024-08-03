@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/destination.css" />
+    <link rel="stylesheet" href="./css/queris.css" />
+
+    <script defer src="./javascript/script.js"></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body class="hide">
+    <div class="full-background-image" role="img" aria-label="Space full of stars.">
+      <menu>
+        <a href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </a>
+
+        <button class="btn btn-nav hide-nav-mobile-btn">
+          <div class="burger-nav-line"></div>
+          <div class="burger-nav-line"></div>
+          <div class="burger-nav-line"></div>
+        </button>
+
+        <nav class="navigation hide-nav">
+          <ol class="list-container">
+            <li class="list-items">
+              <a href="./index.html" class="nav-links">
+                <span class="list-items--number">00</span> Home</a
+              >
+            </li>
+            <li class="list-items list-active">
+              <a href="#" class="nav-links"
+                ><span class="list-items--number">01</span> Destination</a
+              >
+            </li>
+            <li class="list-items">
+              <a href="./crew.html" class="nav-links"
+                ><span class="list-items--number">02</span> Crew</a
+              >
+            </li>
+            <li class="list-items">
+              <a class="nav-links" href="./technology.html"
+                ><span class="list-items--number">03</span> Technology</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </menu>
+
+      <header class="sub-heading__destination">
+        <span class="menu-number">01</span> Pick your destination
+      </header>
+      <article class="destination-container flex hide">
+        <img
+          src="../assets/destination/image-titan.png"
+          alt="Titan planet."
+          class="planet-img turn"
+        />
+        <section>
+          <ul class="list-container list-container--destination">
+            <li class="list-items list-items-destination">
+              <a href="./destination-moon.html" class="nav-links">Moon</a>
+            </li>
+            <li class="list-items list-items-destination">
+              <a href="./destination-mars.html" class="nav-links">Mars</a>
+            </li>
+            <li class="list-items list-items-destination">
+              <a href="./destination-europa.html" class="nav-links">Europa</a>
+            </li>
+            <li class="list-items list-items-destination list-active">
+              <a class="nav-links" href="#">Titan</a>
+            </li>
+          </ul>
+
+          <p class="heading-secondary heading">Titan</p>
+          <p class="caption destination-caption">
+            The only moon known to have a dense atmosphere other than Earth, Titan is a home away
+            from home (just a few hundred degrees colder!). As a bonus, you get striking views of
+            the Rings of Saturn.
+          </p>
+          <hr />
+          <p class="destination-distance-info"><span>1.6 bil. km</span> <span>7 years</span></p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
