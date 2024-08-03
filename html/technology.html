@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/technology.css" />
+    <link rel="stylesheet" href="../css/queris.css" />
+
+    <script defer src="../javascript/script.js"></script>
+    <script defer src="../javascript/tech.js"></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body>
+    <div
+      class="full-background-image back-img-tech hide"
+      role="img"
+      aria-label="Space and stars, Stars looks like turning in circles from the rocket speed "
+    >
+      <menu>
+        <a href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </a>
+
+        <button class="btn btn-nav hide-nav-mobile-btn">
+          <div class="burger-nav-line"></div>
+          <div class="burger-nav-line"></div>
+          <div class="burger-nav-line"></div>
+        </button>
+
+        <nav class="navigation hide-nav">
+          <ol class="list-container">
+            <li class="list-items">
+              <a href="./index.html" class="nav-links">
+                <span class="list-items--number">00</span> Home</a
+              >
+            </li>
+            <li class="list-items">
+              <a href="./destination-moon.html" class="nav-links"
+                ><span class="list-items--number">01</span> Destination</a
+              >
+            </li>
+            <li class="list-items">
+              <a href="./crew.html" class="nav-links"
+                ><span class="list-items--number">02</span> Crew</a
+              >
+            </li>
+            <li class="list-items list-active">
+              <a class="nav-links" href="#"
+                ><span class="list-items--number">03</span> Technology</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </menu>
+      <header class="current-section cur-sect-tech">
+        <span class="list-items--number">03</span> Space launch 101
+      </header>
+
+      <article class="flex technology-article hide">
+        <ol class="slide-num-container">
+          <li class="technology-list-items">
+            <button class="technology-slide-btn active-slide" data-num="1">1</button>
+          </li>
+          <li class="technology-list-items">
+            <button class="technology-slide-btn" data-num="2">2</button>
+          </li>
+          <li class="technology-list-items">
+            <button class="technology-slide-btn" data-num="3">3</button>
+          </li>
+        </ol>
+
+        <div class="tech-text-container">
+          <section class="tech-text slide" data-num="1">
+            <h3 class="heading heading-tertiary tech-heading">Launch vehicle</h3>
+            <p class="caption tech-details">
+              A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+              payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X
+              carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite
+              an awe-inspiring sight on the launch pad!
+            </p>
+          </section>
+
+          <section class="toggle-slides tech-text slide" data-num="2">
+            <h3 class="heading heading-tertiary tech-heading">Spaceport</h3>
+            <p class="caption tech-details">
+              A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by
+              analogy to the seaport for ships or airport for aircraft. Based in the famous Cape
+              Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation
+              for launch.
+            </p>
+          </section>
+
+          <section class="toggle-slides tech-text slide" data-num="3">
+            <h3 class="heading heading-tertiary tech-heading">Space capsule</h3>
+            <p class="caption tech-details">
+              A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule
+              to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend
+              your time during the flight. It includes a space gym, cinema, and plenty of other
+              activities to keep you entertained.
+            </p>
+          </section>
+        </div>
+        <figure class="tech-img-container">
+          <img
+            src="../assets/technology/image-launch-vehicle-portrait.jpg"
+            alt="Rocket vehicle launch "
+            class="tech-img slide portrait-image"
+            data-num="1"
+          />
+          <img
+            src="../assets/technology/image-launch-vehicle-landscape.jpg"
+            alt="Rocket vehicle launch"
+            class="tech-img slide landscape-image"
+            data-num="1"
+          />
+
+          <img
+            src="../assets/technology/image-spaceport-portrait.jpg"
+            alt="People doing architect work."
+            class="tech-img toggle-slides slide portrait-image"
+            data-num="2"
+          />
+          <img
+            src="../assets/technology/image-spaceport-landscape.jpg"
+            alt="People doing architect work."
+            class="tech-img toggle-slides slide landscape-image"
+            data-num="2"
+          />
+
+          <img
+            src="../assets/technology/image-space-capsule-portrait.jpg"
+            alt="A space capsule in the space."
+            class="tech-img toggle-slides slide portrait-image"
+            data-num="3"
+          />
+          <img
+            src="../assets/technology/image-space-capsule-landscape.jpg"
+            alt="A space capsule in the space."
+            class="tech-img toggle-slides slide landscape-image"
+            data-num="3"
+          />
+        </figure>
+      </article>
+    </div>
+  </body>
+</html>

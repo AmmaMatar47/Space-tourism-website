@@ -1,0 +1,39 @@
+.main-section-container {
+  transition: transform 1.2s ease, opacity 1.2s ease;
+}
+
+.back-image-main {
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-color: var(--dark-navy);
+}
+
+.main-section-container {
+  margin-top: 12.8rem;
+  gap: 4.8rem;
+}
+
+.sub-heading--main {
+  margin-bottom: 1.8rem;
+}
+
+.main-heading {
+  margin-bottom: 3.2rem;
+}
+
+.btn--main {
+  display: inline-block;
+  align-self: end;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  width: 24.8rem;
+  height: 24.8rem;
+  font-weight: 100;
+  font-family: 'Bellefair';
+  color: var(--dark-navy);
+  transition: all 0.4s ease;
+}
+
+.btn--main:hover {
+  box-shadow: 0 0 0 6rem #ffffff1f;
+}

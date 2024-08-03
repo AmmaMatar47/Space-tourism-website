@@ -1,0 +1,74 @@
+.full-background-image {
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+  overflow-y: hidden;
+}
+
+.current-section {
+  margin-left: 12.6rem;
+}
+
+.technology-article {
+  margin-left: 12.6rem;
+  transition: opacity 1.2s ease;
+  overflow-x: clip;
+}
+
+.technology-slide-btn {
+  font-size: 2.4rem;
+  font-family: 'Bellefair';
+  font-weight: 300;
+  color: var(--white);
+  background-color: transparent;
+  height: 7.2rem;
+  width: 7.2rem;
+  cursor: pointer;
+  border: 2px solid #555;
+  border-radius: 50%;
+  transition: all 0.4s ease;
+}
+
+.technology-slide-btn:hover {
+  border-color: #fff;
+}
+
+.active-slide {
+  background-color: #fff;
+  color: var(--dark-navy);
+  border: none;
+}
+
+.technology-list-items:not(:last-child) {
+  margin-bottom: 2.8rem;
+}
+
+.tech-text {
+  transition: all 1s ease;
+}
+
+.tech-heading {
+  margin-bottom: 2.2rem;
+}
+
+.tech-details {
+  line-height: 1.6;
+}
+
+.tech-img {
+  transition: all 0.7s ease, scale 0.4s ease;
+}
+
+.toggle-slides {
+  position: absolute;
+  top: 0;
+  transform: translateX(18rem);
+  opacity: 0;
+}
+
+.tech-img-container,
+.tech-text-container {
+  position: relative;
+}
+
+.landscape-image {
+  display: none;
+}

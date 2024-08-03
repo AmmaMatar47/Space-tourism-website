@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/crew.css" />
+    <link rel="stylesheet" href="../css/queris.css" />
+
+    <script defer src="../javascript/slider.js"></script>
+    <script defer src="../javascript/script.js"></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body class="hide">
+    <div
+      class="full-background-image background-image-crew"
+      role="img"
+      aria-label="A planet from the space view."
+    >
+      <menu>
+        <a href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </a>
+
+        <button class="btn btn-nav hide-nav-mobile-btn">
+          <div class="burger-nav-line"></div>
+          <div class="burger-nav-line"></div>
+          <div class="burger-nav-line"></div>
+        </button>
+
+        <nav class="navigation hide-nav">
+          <ol class="list-container">
+            <li class="list-items">
+              <a href="./index.html" class="nav-links">
+                <span class="list-items--number">00</span> Home</a
+              >
+            </li>
+            <li class="list-items">
+              <a href="./destination-moon.html" class="nav-links"
+                ><span class="list-items--number">01</span> Destination</a
+              >
+            </li>
+            <li class="list-items list-active">
+              <a href="#" class="nav-links"><span class="list-items--number">02</span> Crew</a>
+            </li>
+            <li class="list-items">
+              <a class="nav-links" href="./technology.html"
+                ><span class="list-items--number">03</span> Technology</a
+              >
+            </li>
+          </ol>
+        </nav>
+      </menu>
+
+      <section class="section-crew slider hide">
+        <header class="current-section">
+          <span class="list-items--number">02</span> Meet your crew
+        </header>
+        <!-------------- SLIDE 1 ------------------------->
+        <div class="crew-quote-slide flex">
+          <div class="quote-text-container">
+            <hr class="line-break" />
+            <p class="member-profession">Commander</p>
+            <p class="member-name heading">Douglas Hurley</p>
+            <blockquote class="member-quote caption">
+              Douglas Hurley is an American engineer, former Marine Corps pilot and former NASA
+              astronaut. He launched into space for the third time as commander of Crew Dragon
+              Demo-2.
+            </blockquote>
+          </div>
+
+          <img
+            src="../assets/crew/image-douglas-hurley.png"
+            alt="Commander Douglas Hurley."
+            class="member-image"
+          />
+        </div>
+
+        <!-------------- SLIDE 2 ------------------------->
+        <div class="crew-quote-slide flex">
+          <div class="quote-text-container">
+            <hr class="line-break" />
+            <p class="member-profession">Mission Specialist</p>
+            <p class="member-name heading">Mark Shuttleworth</p>
+            <blockquote class="member-quote caption">
+              Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the
+              Linux-based Ubuntu operating system. Shuttleworth became the first South African to
+              travel to space as a space tourist.
+            </blockquote>
+          </div>
+
+          <img
+            src="../assets/crew/image-mark-shuttleworth.png"
+            alt="Mission Specialist Mark Shuttleworth."
+            class="member-image"
+          />
+        </div>
+
+        <!-------------- SLIDE 3 ------------------------->
+        <div class="crew-quote-slide flex">
+          <div class="quote-text-container">
+            <hr class="line-break" />
+            <p class="member-profession">Pilot</p>
+            <p class="member-name heading">Victor Glover</p>
+            <blockquote class="member-quote caption">
+              Pilot on the first operational flight of the SpaceX Crew Dragon to the International
+              Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was
+              a crew member of Expedition 64, and served as a station systems flight engineer.
+            </blockquote>
+          </div>
+
+          <img
+            src="../assets/crew/image-victor-glover.png"
+            alt="Pilot Victor Glover."
+            class="member-image"
+          />
+        </div>
+
+        <!-------------- SLIDE 4 ------------------------->
+        <div class="crew-quote-slide flex">
+          <div class="quote-text-container">
+            <hr class="line-break" />
+            <p class="member-profession">Flight Engineer</p>
+            <p class="member-name heading">Anousheh Ansari</p>
+            <blockquote class="member-quote caption">
+              Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems.
+              Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to
+              the ISS, and the first Iranian in space.
+            </blockquote>
+          </div>
+
+          <img
+            src="../assets/crew/image-anousheh-ansari.png"
+            alt="Flight Engineer Anousheh Ansari."
+            class="member-image"
+          />
+        </div>
+        <div class="slider-dots-container flex"></div>
+      </section>
+    </div>
+  </body>
+</html>
