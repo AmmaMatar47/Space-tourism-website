@@ -152,6 +152,7 @@
   .sub-heading__destination {
     text-align: center;
     margin-top: 9.6rem;
+    padding-left: 0;
   }
 
   .destination-caption {
