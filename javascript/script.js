@@ -8,7 +8,6 @@ window.addEventListener('load', a => {
   article?.classList.remove('hide');
   document.querySelector('.section-crew')?.classList.remove('hide');
   document.querySelector('.full-background-image')?.classList.remove('hide');
-  document.querySelector('.planet-img')?.classList.remove('turn');
 });
 
 const toggleNavMobile = () => {

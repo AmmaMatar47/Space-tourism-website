@@ -40,7 +40,7 @@ dotsContainerEl.addEventListener('click', e => {
   if (e.target.classList.contains('dot')) {
     const dotNumber = +e.target.dataset.slide;
     if (dotNumber === slideCounter) return;
-    slideRight(0, dotNumber);
+    slideRight(dotNumber);
   }
 });
 

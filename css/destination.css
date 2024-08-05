@@ -14,11 +14,17 @@
 
 .planet-img {
   scale: 0.85;
-  transition: transform 10000s;
+  animation: globeTurning 150s linear infinite;
 }
 
-.turn {
-  transform: rotate(-100turn);
+@keyframes globeTurning {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
 }
 
 .sub-heading__destination {
